@@ -1,4 +1,8 @@
-# Make a cached matrix function
+## Functions to create a cached matrix and avoid
+## unnecessary re-computation of the matrice's inverse
+
+
+# Function to make a cached matrix
 makeCacheMatrix <- function(x = matrix()) {
   
   # reset the m variable for every new matrix
