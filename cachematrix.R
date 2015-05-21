@@ -28,8 +28,7 @@ cacheSolve <- function(x, ...) {
   if (all(x$get() == x$getinv())) {
     m <- NULL
   } else {
-    # if it has (ie. get() != getinv())
-    # set 'm' to 'x' inverse
+    # if inverse has been calculated, set 'm' to 'x' inverse
     m <- x$getinv()
   }
 
